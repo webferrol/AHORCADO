@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Variado</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Ahorcado</h1>
+        <!-- Ahorcado-->
+        <article class="article-1">
+          <header class="enunciado">
+            <h2 class="enunciado__title">1. Juego del ahorcado</h2>
+            <div class="enunciado__descripcion">Usando una fila de guiones, se representa la palabra a adivinar, dando el número de letras, números y categoría<br>Pulsa la tecla <strong>Empezar</strong> para comenzar el juego.</div>            
+          </header>
+          <div class="contenido alerta">
+            <div id="ahorcado"></div>
+            <ul class="contenido">
+              <li class="contenido__item">
+                <label for="letra">Letra</label>
+                <input placeholder="Su letra" id="letra" type="text" maxlength="1" />
+                <button class="boton" id="b1">Empezar</button>
+              </li>
+            </ul>
+          </div>
+        </article>
+    </main>
+    
+    <script src="js/ahorcado_class.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

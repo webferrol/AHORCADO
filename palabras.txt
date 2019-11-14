@@ -1,0 +1,1 @@
+Para organizar los componentes de una interfaz de usuario, debemos utilizar un conjunto de clases llamadas gestores de distribución Los gestores ayudan a adaptar los componentes que se desean incorporar a un contenedor y continuación echaremos un vistazo a los principales gestores de distribución los veremos a continuación
