@@ -149,7 +149,7 @@ const limpiarBlancos=cadena=>{
 
 /*
 * Función para leer el archivo de las palabras candidatas para empezar el juego.
-* Es necesario que el script se ejecute desde el servidor al usar ajax.
+* Es necesario que el script se ejecute desde el servidor para usar ajax.
 *
 */
 let peticionHttp=(callback)=>{
